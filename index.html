@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RefundRail – Money You’re Already Owed, On Autopilot</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white border-b border-gray-200 sticky top-0">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <div class="flex items-center space-x-2 font-bold">
+        <svg data-lucide="sparkles" class="w-5 h-5"></svg>
+        <span>RefundRail</span>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-sm">
+        <a href="#how" class="hover:text-black">How it works</a>
+        <a href="#features" class="hover:text-black">Features</a>
+        <a href="#pricing" class="hover:text-black">Pricing</a>
+        <a href="#faq" class="hover:text-black">FAQ</a>
+      </nav>
+      <div class="space-x-3">
+        <a href="#signup" class="px-4 py-2 rounded-xl border">Sign in</a>
+        <a href="#signup" class="px-4 py-2 rounded-xl bg-black text-white">Get started</a>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <section class="py-20 max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+      <div>
+        <span class="inline-block px-3 py-1 border rounded-full text-xs bg-white">New • Turn fine print into found money</span>
+        <h1 class="text-5xl font-extrabold mt-6">Money you’re already owed, on autopilot.</h1>
+        <p class="mt-4 text-lg text-gray-700">RefundRail watches receipts, deliveries, outages, warranties and more—then files and tracks eligible claims for you. You win, we win.</p>
+        <div class="mt-6 flex space-x-3">
+          <a href="#signup" class="px-5 py-3 bg-black text-white rounded-2xl inline-flex items-center space-x-2">Start free <svg data-lucide="arrow-right" class="w-4 h-4"></svg></a>
+          <a href="#how" class="px-5 py-3 border rounded-2xl">See how it works</a>
+        </div>
+        <div class="mt-6 flex space-x-6 text-sm text-gray-600">
+          <div class="flex items-center space-x-1"><svg data-lucide="check-circle" class="w-4 h-4"></svg><span>No upfront fees</span></div>
+          <div class="flex items-center space-x-1"><svg data-lucide="shield" class="w-4 h-4"></svg><span>Privacy-first</span></div>
+          <div class="flex items-center space-x-1"><svg data-lucide="zap" class="w-4 h-4"></svg><span>Fast results</span></div>
+        </div>
+      </div>
+      <div class="bg-white border rounded-2xl p-6 shadow-sm">
+        <div class="flex justify-between text-sm text-gray-600">
+          <span>Today’s finds</span>
+          <span class="font-semibold">$186.42</span>
+        </div>
+        <div class="mt-4 space-y-3">
+          <div class="flex justify-between border p-3 rounded-xl"><span>Late delivery credit — ShopFast</span><span class="text-emerald-600 font-semibold">+$12.00</span></div>
+          <div class="flex justify-between border p-3 rounded-xl"><span>ISP outage credit — MetroNet</span><span class="text-emerald-600 font-semibold">+$25.00</span></div>
+          <div class="flex justify-between border p-3 rounded-xl"><span>Price drop refund — Apex Audio</span><span class="text-emerald-600 font-semibold">+$33.42</span></div>
+          <div class="flex justify-between border p-3 rounded-xl"><span>Unclaimed property — State Treasury</span><span class="text-emerald-600 font-semibold">+$116.00</span></div>
+        </div>
+        <p class="text-xs text-gray-500 mt-3">Mock data for preview</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t py-6 mt-12 text-sm text-gray-600 text-center">
+    <div class="flex justify-center items-center space-x-2">
+      <svg data-lucide="sparkles" class="w-4 h-4"></svg>
+      <span>RefundRail © 2025</span>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
